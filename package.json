@@ -1,0 +1,24 @@
+{
+  "name": "zeroone",
+  "version": "0.0.0",
+  "description": "Nodejs二级制和流的workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gxcsoccer/zeroone.git"
+  },
+  "keywords": [
+    "buffer",
+    "stream",
+    "workshop"
+  ],
+  "author": "Gaoxiaochen <gxcsoccer@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gxcsoccer/zeroone/issues"
+  },
+  "homepage": "https://github.com/gxcsoccer/zeroone"
+}
