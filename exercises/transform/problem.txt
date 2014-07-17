@@ -1,0 +1,32 @@
+A "transform" stream is a duplex stream where the output is causally connected 
+in some way to the input, such as a zlib stream or a crypto stream.
+
+Write a program that convert data from `process.stdin` to upper-case data on 
+`process.stdout`.
+
+Try to use Transform stream:
+
+	var Transform = require('stream').Transform;
+
+When you have completed your program, you can run it in the test
+environment with:
+
+  {bold}{appname} run program.js{/bold}
+
+And once you are happy that it is correct then run:
+
+  {bold}{appname} verify program.js{/bold}
+
+And your submission will be verified for correctness. After you have
+a correct solution, run `{bold}{appname}{/bold}` again and select the next problem!
+
+----------------------------------------------------------------------
+HINTS:
+
+Read more about Transform Stream here:
+  http://nodejs.org/api/stream.html#stream_class_stream_transform_1
+
+To get output for debugging when running `{appname} run program.js`
+you should use console.error instead of console.log.
+
+

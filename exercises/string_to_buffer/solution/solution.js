@@ -1,0 +1,1 @@
+console.log(new Buffer('hello buffer', 'ascii'));

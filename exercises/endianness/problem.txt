@@ -1,0 +1,23 @@
+The terms endian and endianness refer to the convention used to interpret the bytes making up 
+a data word when those bytes are stored in computer memory. In computing, memory commonly stores 
+binary data by organizing it into 8-bit units called bytes. When reading or writing a data word 
+consisting of multiple such units, the order of the bytes stored in memory determines the interpretation 
+of the data word.
+
+Big-endian systems store the most significant byte of a word in the smallest address 
+and the least significant byte is stored in the largest address (also see Most significant bit).
+
+Little-endian systems, in contrast, store the least significant byte in the smallest address.
+
+Write a program, allocating a new buffer using byte array [0x3, 0x4, 0x23, 0x42], then reads a 
+signed 32 bit integer from the buffer at the zero offset with little endian format and print it 
+using console.log.
+
+----------------------------------------------------------------------
+HINTS:
+
+Read more about Buffers here:
+  http://nodejs.org/api/all.html#all_buffer
+
+To get output for debugging when running `{appname} run program.js`
+you should use console.error instead of console.log.

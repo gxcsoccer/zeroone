@@ -1,0 +1,2 @@
+var buf = new Buffer([0x3, 0x4, 0x23, 0x42]);
+console.log(buf.readUInt32LE(0));
