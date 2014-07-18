@@ -1,6 +1,6 @@
 {
     "name": "zeroone",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Nodejs二级制和流的workshop",
     "bin": {
         "zeroone": "bin/cmd.js"
