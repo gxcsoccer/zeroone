@@ -1,32 +1,38 @@
 {
-    "name": "zeroone",
-    "version": "0.0.2",
-    "description": "Nodejs二级制和流的workshop",
-    "bin": {
-        "zeroone": "bin/cmd.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/gxcsoccer/zeroone.git"
-    },
-    "keywords": [
-        "buffer",
-        "stream",
-        "workshop"
-    ],
-    "author": "Gaoxiaochen <gxcsoccer@126.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/gxcsoccer/zeroone/issues"
-    },
-    "homepage": "https://github.com/gxcsoccer/zeroone",
-    "dependencies": {
-        "workshopper": "^1.0.0-alpha05",
-        "workshopper-exercise": "^0.2.2",
-        "workshopper-wrappedexec": "^0.1.1",
-        "workshopper-boilerplate": "0.0.1",
-        "through": "~2.3.4",
-        "through2": "^0.4.1",
-        "boganipsum": "^0.1.0"
-    }
+  "name": "zeroone",
+  "version": "0.0.2",
+  "description": "Nodejs二级制和流的workshop",
+  "bin": {
+    "zeroone": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gxcsoccer/zeroone.git"
+  },
+  "keywords": [
+    "buffer",
+    "stream",
+    "workshop"
+  ],
+  "author": "Gaoxiaochen <gxcsoccer@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gxcsoccer/zeroone/issues"
+  },
+  "homepage": "https://github.com/gxcsoccer/zeroone",
+  "dependencies": {
+    "workshopper": "^1.0.0-alpha05",
+    "workshopper-exercise": "^0.2.2",
+    "workshopper-wrappedexec": "^0.1.1",
+    "workshopper-boilerplate": "0.0.1",
+    "through": "~2.3.4",
+    "through2": "^0.4.1",
+    "boganipsum": "^0.1.0",
+    "snyk": "^1.47.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
